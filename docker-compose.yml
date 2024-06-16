@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  simplewhale:
+    image: kingoboiii/simplewhale
+    networks:
+      - lan
+    restart: always
+
+networks:
+  lan:
+    external: true
+    name: lan
