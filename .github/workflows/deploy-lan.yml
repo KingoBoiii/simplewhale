@@ -17,6 +17,6 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Docker Compose Up
-        run: docker compose up -d --force-recreate
+        run: docker compose up -d
         working-directory: ${{ github.workspace }}
         
