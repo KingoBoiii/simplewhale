@@ -1,4 +1,4 @@
-name: Deploy Reverse Proxy (LAN)
+name: Deploy SimpleWhale (LAN)
 
 on:
   push:
