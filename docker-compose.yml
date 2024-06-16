@@ -4,7 +4,8 @@ services:
   simplewhale:
     image: kingoboiii/simplewhale
     networks:
-      - lan
+      lan:
+        ipv4_address: 192.168.5.3
     restart: always
 
 networks:
